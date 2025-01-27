@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>تقسيم الفيديو الذكي</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>قم بتحويل فيديوك إلى Shorts ذكائية 🚀</h1>
+
+        <div class="upload-box" id="dropZone">
+            <input type="file" id="videoInput" accept="video/*" hidden>
+            <label for="videoInput" class="upload-btn">اختر فيديو</label>
+            <p>أو اسحب الفيديو هنا</p>
+        </div>
+
+        <div class="progress-bar" id="progressBar">
+            <div class="progress"></div>
+        </div>
+
+        <div id="results" class="results-grid"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
