@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "dependencies": {
     "cloudinary": "^1.40.0",
-    "@runwayml/model-sdk": "^0.5.2",
     "@netlify/functions": "^1.5.0"
   }
 }
