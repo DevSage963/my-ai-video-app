@@ -1,5 +1,4 @@
 [build]
-  command = "cd backend && npm install"
   functions = "backend/netlify/functions"
   publish = "frontend"
 
@@ -7,4 +6,3 @@
   from = "/*"
   to = "/index.html"
   status = 200
-
