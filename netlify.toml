@@ -1,8 +1,7 @@
 [build]
-  functions = "backend/netlify/functions"
+  command = "npm install"
+  functions = "netlify/functions"
   publish = "frontend"
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+[functions]
+  node_bundler = "esbuild"

@@ -1,4 +1,4 @@
-const { Runway } = require('runway-sdk');
+const { Runway } = require('@runwayml/model-sdk');
 
 exports.handler = async (event) => {
     const { videoUrl } = JSON.parse(event.body);
