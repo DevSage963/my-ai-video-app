@@ -1,0 +1,9 @@
+{
+  "name": "video-ai-backend",
+  "version": "1.0.0",
+  "dependencies": {
+    "cloudinary": "^1.37.0",
+    "runway-sdk": "^2.1.0",
+    "@netlify/functions": "^1.4.0"
+  }
+}
